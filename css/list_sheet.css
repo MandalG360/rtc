@@ -1,0 +1,53 @@
+/* Zebra striping */
+			tr:nth-of-type(odd) { 
+			  background: #E6E6FA;
+			}
+			th { 
+			  background: #333; 
+			  color: white; 
+			  font-weight: bold;
+			   font-size:18px;
+			   padding:3px 0px;
+			   text-align:center;
+			}
+			td{ 
+			  padding: 3px 0px 2px 3px;; 
+			  text-align: left; 
+			  font-size:14px;
+			   text-align:center;
+			}
+			.top{
+				width:100%;
+				height:auto;
+				background:linear-gradient(#D3D3D3,#DCDCDC,#F5F5F5);
+			}
+			#ht{
+				text-align:center;
+				font-size:40px;
+				color:#B0C4DE;
+			}
+			#sb{
+				text-align:right;
+			}
+			#s{
+				width:250px;
+				height:25px;
+				padding:0px 5px;
+				background-color:#F5F5F5;
+				border:1px solid #D3D3D3;
+			}
+			#s:hover{
+				background-color:#FFF;
+				border:1px solid #1E90FF;
+			}
+			#b{
+				width:80px;
+				height:29px;
+				border:1px solid #D3D3D3;
+				cursor:pointer;
+			}
+			#b:hover{
+				background-color:#00FFFF;
+				border:1px solid #1E90FF;
+				color:white;
+			}

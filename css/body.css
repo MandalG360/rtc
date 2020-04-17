@@ -1,0 +1,156 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.insert_form{
+	width:33%;'
+	height:auto;
+	float:left;
+	margin:0px 33%;
+	padding:10px 0.5%;
+	text-align:center;
+	background:linear-gradient(#FFE4E1,#FFFFFF);
+}
+#state,#district,#block{
+	width:92%;
+	height:30px;
+	margin:2%;
+	padding:2px 2%;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+}
+#submit{
+	width:30%;
+	height:auto;
+	margin:5px 30%;
+	padding:10px 5%;
+	color:white;
+	font-size:18px;
+	cursor:pointer;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:linear-gradient(#00FFFF,#00FF00);
+	border:2px solid #00FF00;
+}
+#submit:hover{
+	background:linear-gradient(#00FF00,#00FFFF);
+	border:2px solid #800000;
+}
+.table{
+	width:100%;
+	height:auto;
+	border-color:white;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#h{
+	background-color:#556B2F;
+	width:100%;
+	height:auto;
+	color:white;
+	padding:5px 0px;
+	text-align:center;
+	font-size:24px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#h2{
+	background-color:#008080;
+	width:100%;
+	height:auto;
+	color:white;
+	padding:5px 0px;
+	text-align:center;
+	font-size:24px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#n{
+	width:89%;
+	height:auto;
+	margin:0px 5%;
+	padding:5px 0.5%;
+	text-align:justify;
+	font-size:16px;
+}
+#n{
+	width:70%;
+	height:auto;
+	margin:0px 10%;
+	padding:5px 5%;
+	text-align:left;
+	font-size:16px;
+}
+ #f1, #f2, #d, #f3, #f4, #f5,#email, #f6,#f7, #f8,#f9,#f10, #f11,#f12,#f13,#f14,#f15,#f16,#f17, #dob, #gender, #sign, #state_c, #state_p,#district_c, #district_p,#block_c,#block_p{
+	width:70%;
+	height:auto;
+	margin-left:10%;
+	padding:5px 5%;
+	text-align:left;
+	font-size:13px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#err{
+	color:#FF0000;
+	text-align:center;
+}
+ #f1:focus, #f2:focus, #f3:focus, #f4:focus, #f5:focus, #f6:focus, #f7:focus, #f8:focus, #f9:focus, #f10:focus, #f11:focus, #f12:focus, #f13:focus, #f14:focus, #f15:focus, #f16:focus, #f17:focus{
+	 border:2px solid #FF00FF;
+ }
+
+ #reg{    /* for use reg_lock form */ 
+	 width:59%;
+	 margin:0px 20%;
+	 background-color:white;
+ }
+ .section div{
+	 width:60%;
+	 float:left;
+	 margin:5px 20%;
+	 clear:both;
+ }
+  .section2 div{
+	  background-color:#FFF;
+	 width:98%;
+	 float:left;
+	 font-size:14px;
+	 margin:5px 1%;
+	 clear:both;
+ }
+
+/* =============================For Responsive=============================================== */
+
+@media only screen and (min-width: 1px) and (max-width: 480px){
+	.insert_form{
+	width:96%;'
+	height:auto;
+	float:left;
+	margin:0px;
+	padding:10px 2%;
+	text-align:center;
+	background:linear-gradient(#FFE4E1,#FFFFFF);
+}
+ #reg{
+	 width:100%;
+	 margin:0px;
+	 background-color:white;
+ }
+}
+@media only screen and (min-width: 481px) and (max-width: 920px){
+	.insert_form{
+	width:76%;'
+	height:auto;
+	float:left;
+	margin:10px 10%;
+	padding:10px 2%;
+	text-align:center;
+	background:linear-gradient(#FFE4E1,#FFFFFF);
+}
+}

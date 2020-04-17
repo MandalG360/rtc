@@ -1,0 +1,187 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#cccccc;
+	width:90%;
+	margin:0px 5% 10px 5%;	
+}
+.header{
+	float:left;
+	width:99%;
+	margin:0px 0.5%;
+	clear:both;
+	
+	height:auto;
+}
+.navigation{
+	float:left;
+	width:100%;
+	margin:0px;
+	clear:both;
+}
+.content{
+	float:left;
+	width:100%;
+	background-color:#EEE5DE;
+	height:auto;
+	margin:0px;
+	clear:both;
+}
+/* only use for authorised pages start now */
+.content_body{
+	float:left;
+	width:90%;
+	height:auto;
+	margin:0px 3%;
+	padding:2%;
+	clear:both;
+	text-align:justify;
+}
+.content_body2{
+	float:left;
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	clear:both;
+	text-align:justify;
+}
+.welcome{
+	float:left;
+	width:99%;
+	margin:0px 0.5%;
+	height:auto;
+	clear:both;
+	text-align:center;
+	background:linear-gradient(#F5DEB3,#EEE5DE);
+	border-radius:5px;
+}
+/* only use for authorised pages end now */
+
+.left_content{
+	float:left;
+	width:20%;
+	height:auto;
+	margin-left:2.5%;
+}
+.middle_content{
+	float:left;
+	width:53%;
+	padding:2px 1%;
+	height:auto;
+}
+.right_content{
+	float:left;
+	width:20%;
+	height:auto;
+	margin-right:2.5%;
+}
+
+.slide{
+	float:left;
+	width:99.8%;
+	height:auto;
+	padding:0.1%;
+	background-color:#D3D3D3;
+}
+.clock{
+	float:left;
+	width:99.8%;
+	height:auto;
+	padding:0.1%;
+	background-color:#000;
+}
+.description{
+	float:left;
+	width:98%;
+	height:auto;
+	margin:1% 0px;
+	padding:0px 1%;
+	text-align:justify;
+	background-color:#FFFFFF;
+}
+.description_head{
+	float:left;
+	height:auto;
+	width:97%;
+	padding:1.5%;
+	font-size:24px;
+	text-align:justify;
+	color:#191970;
+	background-color:#FFFAF0;	
+	margin-bottom:5px;
+}
+.description_body{
+	float:left;
+	height:auto;
+	width:auto;
+	padding:0px 5px 0px 10px;
+	font-size:16px;
+	text-align:justify;	
+	margin-bottom:5px;
+}
+.readMore{
+	display:none;
+}
+.description_foot, .description_foot a,.description_foot a:visited{
+	float:left;
+	height:auto;
+	width:98%;
+	padding:0px 5px 0px 10px;
+	font-size:18px;
+	color:#FF4500;
+	cursor:pointer;
+	text-align:right;	
+	margin-bottom:5px;
+	text-decoration:none;
+}
+
+.footer{
+	float:left;
+	width:100%;
+	height:auto;
+	clear:both;
+}
+
+/* =============================For Responsive=============================================== */
+
+@media only screen and (min-width: 1px) and (max-width: 780px){
+	body{
+	width:97%;
+	margin:0px 1.5%;
+	clear:both;
+	margin:0px;
+	
+}
+.description{
+	float:left;
+	width:98%;
+	height:auto;
+	margin:0px;
+	padding:1%;
+}
+.description_head{
+	float:left;
+	height:auto;
+	width:99%;
+	padding:1%;
+}
+	.content_body{
+	float:left;
+	width:96%;
+	height:auto;
+	padding:2%;
+	clear:both;
+	text-align:justify;
+}
+.left_content, .right_content, .middle_content{
+	float:left;
+	width:100%;
+	height:auto;
+	padding:0px;
+	margin-left:0px;
+}
+	
+}

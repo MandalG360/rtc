@@ -1,0 +1,39 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.head{ 	/* sidebar head filed */
+	float:left;
+	width:100%;
+	height:auto;
+	text-align:center;
+	padding:9px 0px;
+	color:#2F4F4F;
+	background:linear-gradient(#D3D3D3,#E0FFFF);
+}
+.body{ /* sidebar full body */
+	float:left;
+	width:100%;
+	height:auto;
+	background:linear-gradient(#D3D3D3,#F5F5DC);	
+}
+.body_part{		/* sidebar description part */
+	width:95%;
+	height:auto;
+	float:left;
+	text-align:justify;
+	padding:5px 2.5%;
+	border-bottom:1px dotted #F6A600;
+	margin-bottom:5%;
+}
+
+/* =============================For Responsive=============================================== */
+
+@media only screen and (min-width: 1px) and (max-width: 780px){
+	.body{ /* sidebar full body */
+	float:left;
+	width:100%;	
+}
+}
+

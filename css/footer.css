@@ -1,0 +1,39 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.footer{	
+	height:100px auto;
+	background:linear-gradient(#696969,#2F4F4F);
+	float:left;
+	text-align:center;
+	margin-bottom:0px;
+}
+.left_part{
+	width:30%;
+	float:left;
+	color:white;
+}
+.middle_part{
+	width:39.5%;
+	float:left;
+	color:white;
+	border:1px dotted green;
+}
+.right_part{
+	width:30%;
+	float:left;
+	color:white;
+}
+
+/* =============================For Responsive=============================================== */
+
+@media only screen and (min-width: 1px) and (max-width: 780px){
+.left_part, .middle_part, .right_part{
+	width:100%;
+	height:auto;
+	float:left;
+	color:white;
+	border:none;
+}
+}
